@@ -1,0 +1,105 @@
+/* NAVIGATION STYLES */
+
+.sidenav {
+  width: 200px !important;
+  opacity: 0.9;
+}
+
+.particle-bg {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: transparent;
+  z-index: -1;
+}
+
+.center-image {
+  width: 300px !important;
+  margin: auto !important;
+}
+
+.mainContainer {
+  background: rgba(255, 255, 255, 0.8) !important;
+  padding: 2rem !important;
+}
+
+.list-inline {
+  width: 200px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.list-inline-item {
+  display: inline-block !important;
+}
+
+.fa-circle:hover {
+  color: #000 !important;
+}
+
+img {
+  max-width: 200px;
+  padding: 10px;
+}
+
+.valign-wrapper {
+  margin-top: 40px;
+  height: 80vh;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-style: bold;
+}
+
+.p-5 {
+  padding: 5px;
+}
+
+.m-5 {
+  margin: 5px;
+}
+
+.divider {
+  width: 100%;
+  height: 5px;
+  background: #f45654;
+}
+
+.clearfix {
+  clear: both;
+}
+
+ul.blue li:nth-child(even) {
+  color: #fff !important;
+}
+
+p.blue.rounded {
+  max-width: 600px !important;
+}
+
+footer {
+  background: rgba(0, 0, 255, 0.3) !important;
+}
+
+@media (max-width: 711px) {
+  .btn {
+    margin-top: 5px;
+  }
+}
+
+@media (max-width: 300px) {
+  h4 {
+    font-size: 20px !important;
+  }
+}
+
+footer ul li a:hover {
+  color: #000 !important;
+  font-weight: bold !important;
+}

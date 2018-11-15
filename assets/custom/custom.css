@@ -1,0 +1,177 @@
+@font-face {
+  font-family: hacked;
+  src: url("HACKED.ttf");
+}
+
+@font-face {
+  font-family: minimalistic;
+  src: url("./nvscript.ttf");
+}
+
+body {
+  font-family: minimalistic;
+  font-size: 22px;
+  background: #333;
+}
+
+.divider {
+  border: none;
+  border-bottom: #f45654 15px solid;
+  border-radius: 20px;
+  height: 30px;
+  margin-top: -30px;
+  background: transparent;
+}
+
+p {
+  color: white;
+  text-shadow: #000 0 0 6px;
+}
+
+ul li a {
+  color: #2196f3;
+}
+
+ul li a:hover {
+  color: #f45654;
+  transition: all 0.4s;
+}
+
+.btn-close {
+  float: right !important;
+  top: 0;
+}
+
+.btn-close::after {
+  content: "";
+  clear: both !important;
+}
+
+.side-menu {
+  margin-top: 40px;
+}
+
+.logo-big {
+  font-size: 170px;
+  font-family: hacked;
+  text-shadow: #2196f3 3px 3px 0px !important;
+}
+
+.slogan-tech {
+  text-shadow: #f45654 3px 3px 0px !important;
+}
+
+.card {
+  box-shadow: 10px 10px 0px 0px #f45654;
+  transition: all 0.4s;
+}
+
+.card:hover {
+  box-shadow: 0px 0px 0px 0px #f45654;
+}
+
+.slogan {
+  margin-top: -50px;
+  border-radius: 20px;
+  border: #f45654 15px solid;
+
+  font-size: 2em;
+
+  padding: 8px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.quotes {
+  padding: 5px 10px 5px 10px;
+  margin-top: 10px;
+  border-bottom-right-radius: 55px;
+  border-top-left-radius: 55px;
+  border-top: #f45654 5px solid;
+  border-bottom: #f45654 5px solid;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: minimalistic, Arial, Helvetica, sans-serif;
+}
+
+nav ul li a {
+  color: #2196f3 !important;
+  font-size: 16px;
+  font-weight: 900;
+  text-shadow: #fff 0px 0px 2px;
+}
+
+.sidenav ul li a {
+  font-size: 16px;
+  font-weight: 900;
+  text-shadow: #fff 0px 0px 2px;
+}
+
+.brand-logo {
+  font-family: hacked;
+  font-size: 45px !important;
+  text-shadow: #2196f3 3px 3px 0px !important;
+}
+
+/* NAVIGATION STYLES */
+
+.sidenav {
+  width: 250px !important;
+  opacity: 0.9;
+}
+
+.devicons,
+fa:not(.fa-bars) {
+  font-size: 60px;
+  transition: all 0.4s;
+}
+
+.devicons:hover,
+fa {
+  color: #f45654 !important;
+}
+
+.list-inline {
+  width: 80% !important;
+  margin-left: 10% !important;
+  margin-right: 10% !important;
+}
+
+.list-inline-item {
+  display: inline-block !important;
+}
+
+.fa-square:hover {
+  color: #000 !important;
+}
+
+.clearfix {
+  clear: both;
+}
+
+footer {
+  background: #444 !important;
+  font-size: 22px;
+}
+
+@media (max-width: 711px) {
+  .btn {
+    margin-top: 5px;
+  }
+}
+
+@media (max-width: 576px) {
+  h4 {
+    font-size: 30px !important;
+  }
+}
+
+footer ul li a:hover {
+  color: #000 !important;
+  font-weight: bold !important;
+}

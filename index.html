@@ -5,14 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>KOKLA THE WEB GUY</title>
+    <title>TECHNICALLI</title>
+
+    <link rel="shortcut icon" href="LOGO.png" type="image/x-icon">
 
     <!-- STYLESHEETS -->
-    <link rel="stylesheet" href="materialize/css/materialize.min.css">
-    <link rel="stylesheet" href="custom/custom.css">
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="devicons/css/devicons.min.css">
-    <link rel="stylesheet" href="simple-line-icons/css/simple-line-icons.css">
+    <link rel="stylesheet" href="./assets/materialize/css/materialize.min.css">
+    <link rel="stylesheet" href="./assets/custom/custom.css">
+    <link rel="stylesheet" href="./assets/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/devicons/css/devicons.min.css">
 
 </head>
 
@@ -24,30 +25,30 @@
             <div class="nav-wrapper">
                 <div class="container">
                     <a href="javascript:void(0)" data-target="slide-out" class="sidenav-trigger red-text">
-                        <i class="material-icons">menu</i>
+                        <i class="fa fa-bars fa-2x"></i>
                     </a>
-                    <a href="index.html" class="brand-logo blue-text hide-on-med-and-down">
-                        <i>koklaTheWebGuy</i>
+                    <a href="#me" class="brand-logo red-text hide-on-med-and-down">
+                        TECHNICALLI
                     </a>
-                    <a href="index.html" class="brand-logo blue-text hide-on-large-only">
-                        <i>KTWG</i>
+                    <a href="#me" class="brand-logo red-text hide-on-large-only">
+                        T
                     </a>
                     <ul class="right hide-on-med-and-down">
-                        <li class="active">
-                            <a href="index.html" class="red-text waves-effect waves-blue">ME</a>
+                        <li>
+                            <a href="#me" class="red-text waves-effect waves-blue">HOME</a>
                         </li>
 
                         <li>
-                            <a href="" class="red-text waves-effect waves-blue">MY WORK</a>
+                            <a href="#myWork" class="red-text waves-effect waves-blue">OUR WORK</a>
                         </li>
 
                         <li>
-                            <a href="services.html" class="red-text waves-effect waves-blue">MY ARSENAL</a>
+                            <a href="#myArsenal" class="red-text waves-effect waves-blue">OUR ARSENAL</a>
                         </li>
 
 
                         <li>
-                            <a href="" class="red-text waves-effect waves-blue">MY WORK FLOW</a>
+                            <a href="#myWorkFlow" class="red-text waves-effect waves-blue">OUR WORK FLOW</a>
                         </li>
 
 
@@ -57,22 +58,30 @@
         </div>
 
         <!-- SIDE NAVIGATION BAR -->
-        <div>
-            <ul id="slide-out" class="sidenav red">
-                <li class="active">
-                    <a href="#me" class="white-text waves-effect waves-blue">ME</a>
+        <div id="slide-out" class="sidenav blue" id="sidenav">
+            <a href="javascript:void(0)" class="btn btn-close red" onclick="closeSideNav()">
+                <i class="fa fa-close"></i>
+            </a>
+
+
+            <ul class="side-menu clearfix">
+
+
+
+                <li>
+                    <a href="#me" class="clearfix white-text waves-effect waves-blue hoverable">HOME</a>
                 </li>
 
                 <li>
-                    <a href="" class="white-text waves-effect waves-blue">MY WORK</a>
+                    <a href="#myWork" class="white-text waves-effect waves-blue hoverable">OUR WORK</a>
                 </li>
 
                 <li>
-                    <a href="services.html" class="white-text waves-effect waves-blue">MY ARSENAL</a>
+                    <a href="#myArsenal" class="white-text waves-effect waves-blue hoverable">OUR ARSENAL</a>
                 </li>
 
                 <li>
-                    <a href="" class="white-text waves-effect waves-blue">MY WORK FLOW</a>
+                    <a href="#myWorkFlow" class="white-text waves-effect waves-blue hoverable">OUR WORK FLOW</a>
                 </li>
             </ul>
         </div>
@@ -88,15 +97,17 @@
 
                 <div class="col  s12 section scrollspy" id="me">
                     <!--col-->
-                    <h3 class="red-text thin">SAMUEL KOKETSO
-                        <big class="blue-text ">MAOTOMABE</big>
+                    <h3 class="red-text logo-big thin">
+                        T
                     </h3>
+                    <p class="slogan flow-text">LET US
+                        <span class="blue-text text-darken-3 slogan-tech">TECH</span> CARE OF YOU!</p>
 
-                    <img src="images/me.jpg" alt="" class=" circle">
+                    <p>WE DO:
+                        <big>WEBSITES, MOBILE APPLICATIONS, LOGO DESIGN, BUSINESS CARDS AND BUSINESS PLANS</big>
+                    </p>
 
-                    <p class="">I CREATE PROFESSIONAL, RESPONSIVE AND EFFICIENT WEBSITES AS WELL AS MOBILE APPLICATIONS AT AN AFFORDABLE
-                        AND REASONABLE PRICE, AND MY MISSION IS TO BRING SCARCE TECHNOLOGICAL SOLUTIONS TO DIFFERENT PEOPLE,
-                        ORGANIZATIONS, CORPORATIONS AND BUSINESSES AT A MORE EFFICIENT AND RELIABLE WAY.</p>
+
 
                     <div class="center-align icon-div red-text row">
 
@@ -104,31 +115,32 @@
                             <li class="list-inline-item">
                                 <a href="#">
                                     <span class="fa-stack fa-lg">
-                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-square fa-stack-2x"></i>
                                         <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
                                     </span>
                                 </a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="#">
+                                <a href="https://wa.me/27793004047">
                                     <span class="fa-stack fa-lg">
-                                        <i class="fa fa-circle fa-stack-2x"></i>
-                                        <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                        <i class="fa fa-square fa-stack-2x"></i>
+                                        <i class="fa fa-whatsapp fa-stack-1x fa-inverse"></i>
                                     </span>
                                 </a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="#">
+                                <a href="mailto:koklathewebguy@gmail.com">
                                     <span class="fa-stack fa-lg">
-                                        <i class="fa fa-circle fa-stack-2x"></i>
-                                        <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                                        <i class="fa fa-square fa-stack-2x"></i>
+                                        <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
                                     </span>
                                 </a>
                             </li>
+
                             <li class="list-inline-item">
                                 <a href="#">
                                     <span class="fa-stack fa-lg">
-                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-square fa-stack-2x"></i>
                                         <i class="fa fa-github fa-stack-1x fa-inverse"></i>
                                     </span>
                                 </a>
@@ -141,83 +153,124 @@
                 <!--col-->
                 <div class="row">
 
-                    <h1>My Work</h1>
+                    <h1 class="red-text">Our Work</h1>
+                    <div class="divider scrollspy" id="myWork"></div>
 
 
-                    <div class="card blue col s12 m4 darken-1">
-                        <div class="card-content  white-text">
-                            <span class="card-title"></span>
-                            <p>Xampos</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="#" class="btn red">View</a>
-                        </div>
-                    </div>
-                    <div class="card blue col s12 m4 darken-1">
-                        <div class="card-content  white-text">
-                            <span class="card-title"></span>
-                            <p>Xampos</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="#" class="btn red">View</a>
-                        </div>
-                    </div>
-                    <div class="card blue col s12 m4 darken-1">
-                        <div class="card-content  white-text">
-                            <span class="card-title"></span>
-                            <p>Xampos</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="#" class="btn red">View</a>
+                    <div class="col s12 m4">
+                        <div class="card blue darken-1">
+                            <div class="card-content  white-text">
+                                <p class="card-title">AGENCY
+                                    <small>TEMPLATE</small>
+                                </p>
+                            </div>
+                            <div class="card-action">
+                                <a href="MYWORK/agency/index.html" class="btn red">View</a>
+                            </div>
                         </div>
                     </div>
 
+                    <div class=" col s12 m4">
+                        <div class="card blue darken-1">
+                            <div class="card-content  white-text">
+                                <p class="card-title">RESUME
+                                    <small>TEMPLATE</small>
+                                </p>
+                            </div>
+                            <div class="card-action">
+                                <a href="MYWORK/resume/index.html" class="btn red">View</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class=" col s12 m4">
+                        <div class="card blue darken-1">
+                            <div class="card-content  white-text">
+                                <p class="card-title">BUSINESS
+                                    <small>TEMPLATE</small>
+                                </p>
+                            </div>
+                            <div class="card-action">
+                                <a href="MYWORK/business/index.html" class="btn red">View</a>
+                            </div>
+                        </div>
+                    </div>
 
 
                 </div>
                 <!--/col-->
 
-                <div class="row">
-                    <h1>My Arsenal</h1>
+                <div class="row blue-text">
+                    <h1 class="red-text">Our Arsenal</h1>
+                    <div class="divider scrollspy" id="myArsenal"></div>
+
+                    <i class="devicons devicons-html5" title="HTML5"></i>
+                    <i class="devicons devicons-css3" title="CSS3"></i>
+                    <i class="devicons devicons-javascript" title="JAVASCRIPT"></i>
+                    <i class="devicons devicons-bootstrap" title="BOOTSTRAP"></i>
+                    <i class="devicons devicons-materializecss" title="MATERIALIZE CSS"></i>
+                    <i class="devicons devicons-jquery" title="JQUERY"></i>
+                    <i class="devicons devicons-php" title="PHP"></i>
+                    <i class="devicons devicons-nodejs" title="NODE.JS"></i>
+                    <i class="devicons devicons-mongodb" title="MONGODB"></i>
+                    <i class="devicons devicons-mysql" title="MYSQL"></i>
+                    <!-- <i class="devicons devicons-cpanel"></i> -->
+                    <i class="devicons devicons-git" title="GIT VERSION CONTROL"></i>
+                    <i class="devicons devicons-photoshop" title="ADOBE PHOTOSHOP"></i>
+                    <i class="devicons devicons-phonegap" title="ADOBE PHONEGAP"></i>
 
                 </div>
+
+                <h1 class="red-text">Our Work Flow</h1>
+                <div class="divider scrollspy" id="myWorkFlow"></div>
+
+                <ul class="white-text">
+                    <li>RESPONSIVE DESIGN</li>
+                    <li>CROSS BROWSER COMPATIBILITY</li>
+                    <li>CODE READABILITY</li>
+                    <li>SEO IMPLEMENTATION</li>
+                    <li>OPTIMIZATION</li>
+                </ul>
+
 
 
             </div>
             <!-- CONTAINER CLOSE -->
         </div>
-        <div class="divider"></div>
+
         <footer class="" style="padding-bottom: 30px">
             <div class="row container">
                 <div class="col s12 m5 l6">
                     <h4>NAVIGATION</h4>
                     <ul>
                         <li class="">
-                            <a href="#me" class="white-text">ME</a>
+                            <a href="#me" class="white-text">HOME</a>
                         </li>
                         <li>
-                            <a href="services.html" class="white-text">MY SERVICES</a>
+                            <a href="#myWork" class="white-text">OUR WORK</a>
                         </li>
                         <li>
-                            <a href="" class="white-text">MY WORK</a>
+                            <a href="#myArsenal" class="white-text">OUR ARSENAL</a>
                         </li>
                         <li>
-                            <a href="" class="white-text">HAPPY CLIENTS</a>
+                            <a href="#myWorkFlow" class="white-text">OUR WORK FLOW</a>
                         </li>
                     </ul>
                 </div>
                 <div class="col s12 m7 l6">
-                    <h4>QUOTES</h4>
-                    <h5 class="thin">
-                        <i>
-                            <q>What good is a man if he gains the whole world then lose his own soul?</q>
-                        </i>
-                    </h5>
-                    <h5 class="thin" title="He is the King of kings and Lord of lords!">
-                        <strong>
-                            <i>--King Jesus</i>
-                        </strong>
-                    </h5>
+                    <div class="quotes">
+                        <h4>QUOTES</h4>
+                        <h5 class="thin">
+
+                            <q class="red-text">What good is a man if he gains the whole world then lose his own soul?</q>
+
+                        </h5>
+                        <h5 class="thin" title="He is the King of kings and Lord of lords!">
+                            <big class="blue-text">
+                                King Jesus
+                            </big>
+                        </h5>
+                    </div>
 
                 </div>
             </div>
@@ -225,17 +278,16 @@
 
 
             <p class="center-align container red p-5 ">
-                <strong>koklaTheWebGuy&copy;2018</strong>
+                TECHNICALLI&nbsp;&copy; 2018
             </p>
         </footer>
 
 
 
         <!-- SCRIPTS -->
-        <script src="materialize/js/materialize.min.js"></script>
-        <script src="custom/custom.js"></script>
-        <script src="particles.js/particles.js"></script>
-        <script src="particles.js/app.js"></script>
+        <script src="./assets/materialize/js/materialize.min.js"></script>
+        <script src="./assets/custom/custom.js"></script>
+
 </body>
 
 </html>

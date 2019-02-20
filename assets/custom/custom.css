@@ -167,12 +167,20 @@ footer {
   .brand-logo {
     font-size: 40px !important;
   }
-  
+
+  .cont {
+    font-size: 20px !important;
+  }
+
 }
 
 @media (max-width: 576px) {
   h4 {
     font-size: 25px !important;
+  }
+
+  .cont {
+    font-size: 20px !important;
   }
 
   .brand-logo {

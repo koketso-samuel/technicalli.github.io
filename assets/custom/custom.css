@@ -112,7 +112,6 @@ nav ul li a {
 
 .brand-logo {
   font-family: hacked;
-  font-size: 45px !important;
   text-shadow: #2196f3 3px 3px 0px !important;
 }
 .sidenav {
@@ -154,10 +153,21 @@ footer {
   font-size: 22px;
 }
 
+@media (min-width: 1060px) {
+  .brand-logo {
+    font-size: 40px !important;
+  }
+}
+
 @media (max-width: 711px) {
   .btn {
     margin-top: 5px;
   }
+
+  .brand-logo {
+    font-size: 40px !important;
+  }
+  
 }
 
 @media (max-width: 576px) {
@@ -167,7 +177,7 @@ footer {
 
   .brand-logo {
   
-    font-size: 35px !important;
+    font-size: 40px !important;
   }
 
   h1 {

@@ -24,10 +24,6 @@ body {
   background: transparent;
 }
 
-p {
-  color: white;
-  text-shadow: #000 0 0 6px;
-}
 
 ul li a {
   color: #2196f3;
@@ -61,6 +57,7 @@ ul li a:hover {
 .card {
   box-shadow: 10px 10px 0px 0px #0D47A1;
   transition: all 0.4s;
+  width: 100% !important;
 }
 
 .card:hover {
